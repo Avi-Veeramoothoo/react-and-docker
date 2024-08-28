@@ -14,8 +14,9 @@ function App() {
           <h2>Avi Veeramoothoo</h2>
           <nav>
             <ul>
-              <li><a href="#">4th year UW</a></li>
-              <li><a href="#">CS, Stats, Physics</a></li>
+              <li>4th year UW</li>
+              <li>CS, Stats, Physics</li>
+              <li>(Excellent standing)</li>
             </ul>
           </nav>
           <div className="social-icons">
