@@ -247,3 +247,10 @@ h2 {
   height: 90px;
   margin-right: 15px; /* Space between the logos */
 }
+
+
+.quantum-link {
+  color: #2b80b8; /* Light blue color */
+  padding-top: 20px; /* Add padding above the link */
+  display: block; /* Ensures the padding works correctly */
+}
