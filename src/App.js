@@ -66,6 +66,7 @@ function App() {
               <li>Intro to Quantum Information Processing</li>
             </ul>
             <a href="https://github.com/Avi-Veeramoothoo/Quantum-Algorithms" className="quantum-link">I implement Quantum Algorithms in this repo</a>
+            <a href="https://github.com/Avi-Veeramoothoo/Quantum-Papers" className="quantum-link">List of Quantum research papers I read</a>
           </div>
           <div className="bottom-middle">
             <h2>AI/ML Courses</h2>
