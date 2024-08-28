@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 350px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 2px solid #EAAB00;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.profile p.email {
+  font-size: 15px;
+  color: white;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid #EAAB00;
+}
+
+.profile h2 {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 28px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  color: #FED34C;
+}
+
+.profile p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.social-icons a {
+  color: rgb(201, 210, 210);
+  text-decoration: none;
+  font-size: 35px;
+  margin: 0 10px;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 90px;
+}
+
+nav ul li {
+  margin: 16px 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 40px 60px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-half, .bottom-half {
+  flex: 1;
+  display: flex;
+  border: 0px solid transparent;
+}
+
+.top-left, .top-right, .bottom-left, .bottom-middle, .bottom-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.content h1 {
+  font-size: 48px;
+  color: #333;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.content h1 span {
+  color: #A9472D;
+}
+
+.content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.content .social-icons {
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.top-left, .top-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-top: 30px; /* Ensure both sections have the same top padding */
+}
+
+.education-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.education-list li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.experience-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.experience-list li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.bottom-left, .bottom-middle, .bottom-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-top: 30px; /* Ensure consistent top padding for all sections */
+}
+
+.bottom-left-list, .bottom-middle-list, .bottom-right-list {
+  list-style-type: disc;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.bottom-left-list li, .bottom-middle-list li, .bottom-right-list li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.education-logos {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-start; /* Align logos to the left */
+  margin-top: 100px; /* Add space between the list and the logos */
+}
+
+.uw-logo {
+  width: 130px; /* Adjust as necessary */
+  height: 130px;
+  margin-right: 15px; /* Space between the logos */
+  margin-top: -20px;
+}
+
+.company-logos {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-start; /* Align logos to the left */
+  margin-top: 100px; /* Add space between the list and the logos */
+}
+
+.amazon-logo {
+  width: 100px; /* Adjust as necessary */
+  height: 30px;
+  margin-right: 15px; /* Space between the logos */
+  margin-top: 30px;
+}
+
+.microsoft-logo {
+  width: 200px; /* Adjust as necessary */
+  height: 90px;
+  margin-right: 15px; /* Space between the logos */
+}
